@@ -1,0 +1,3 @@
+TargetServerName,TargetIpAddress,Protocol,Port
+TARGET-DC01.target.example.local,198.51.100.10,ICMP,
+TARGET-DC01.target.example.local,198.51.100.10,TCP,445

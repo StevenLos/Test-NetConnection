@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+WINMGMT001,windows.example.local,WIN01.windows.example.local,198.51.100.90,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+WINMGMT002,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,135,RPC Endpoint Mapper,Validate RPC endpoint mapper connectivity for Windows management.
+WINMGMT003,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,139,NetBIOS Session Service,Validate legacy NetBIOS management connectivity where required.
+WINMGMT004,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,445,SMB / Microsoft-DS,Validate SMB and admin share connectivity.
+WINMGMT005,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,3389,RDP,Validate Remote Desktop connectivity where allowed.
+WINMGMT006,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,5985,WinRM HTTP,Validate WinRM HTTP remote management connectivity.
+WINMGMT007,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,5986,WinRM HTTPS,Validate WinRM HTTPS remote management connectivity.
+WINMGMT008,windows.example.local,WIN01.windows.example.local,198.51.100.90,TCP,47001,WinRM Service,Validate Windows Remote Management service listener connectivity.

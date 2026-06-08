@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+SQL001,sql.example.local,SQL01.sql.example.local,198.51.100.50,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+SQL002,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,1433,SQL Server Database Engine,Validate default SQL Server client connectivity.
+SQL003,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,1434,SQL Server Dedicated Admin Connection,Validate DAC connectivity when configured over TCP.
+SQL004,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,5022,SQL Server Always On Endpoint,Validate database mirroring or Always On endpoint connectivity.
+SQL005,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,135,RPC Endpoint Mapper,Validate RPC endpoint mapper connectivity for Windows management workflows.
+SQL006,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,445,SMB / Microsoft-DS,Validate SMB connectivity for file copy or admin share workflows.
+SQL007,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,5985,WinRM HTTP,Validate WinRM HTTP connectivity for server administration.
+SQL008,sql.example.local,SQL01.sql.example.local,198.51.100.50,TCP,5986,WinRM HTTPS,Validate WinRM HTTPS connectivity for secure server administration.

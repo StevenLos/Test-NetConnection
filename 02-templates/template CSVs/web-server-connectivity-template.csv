@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+WEB001,web.example.local,WEB01.web.example.local,198.51.100.60,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+WEB002,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,80,HTTP,Validate standard HTTP web traffic.
+WEB003,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,443,HTTPS,Validate standard HTTPS web traffic.
+WEB004,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,8080,Alternate HTTP,Validate alternate HTTP application traffic.
+WEB005,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,8443,Alternate HTTPS,Validate alternate HTTPS application traffic.
+WEB006,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,22,SSH,Validate SSH administration for Linux or network-hosted web servers.
+WEB007,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,5985,WinRM HTTP,Validate WinRM HTTP administration for Windows web servers.
+WEB008,web.example.local,WEB01.web.example.local,198.51.100.60,TCP,5986,WinRM HTTPS,Validate WinRM HTTPS administration for Windows web servers.

@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+APP001,app.example.local,APP01.app.example.local,198.51.100.70,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+APP002,app.example.local,APP01.app.example.local,198.51.100.70,TCP,443,HTTPS API,Validate secure application endpoint connectivity.
+APP003,app.example.local,APP01.app.example.local,198.51.100.70,TCP,8080,Application HTTP,Validate common application HTTP listener connectivity.
+APP004,app.example.local,APP01.app.example.local,198.51.100.70,TCP,8443,Application HTTPS,Validate common application HTTPS listener connectivity.
+APP005,app.example.local,APP01.app.example.local,198.51.100.70,TCP,5000,Application Service,Validate custom application service connectivity.
+APP006,app.example.local,APP01.app.example.local,198.51.100.70,TCP,5001,Application Secure Service,Validate custom secure application service connectivity.
+APP007,app.example.local,APP01.app.example.local,198.51.100.70,TCP,5672,AMQP,Validate message broker connectivity when the app uses AMQP.
+APP008,app.example.local,APP01.app.example.local,198.51.100.70,TCP,6379,Redis,Validate cache connectivity when the app uses Redis.

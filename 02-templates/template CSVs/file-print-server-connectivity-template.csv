@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+FPS001,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+FPS002,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,445,SMB / Microsoft-DS,Validate SMB file share connectivity.
+FPS003,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,139,NetBIOS Session Service,Validate legacy NetBIOS session connectivity where required.
+FPS004,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,135,RPC Endpoint Mapper,Validate RPC endpoint mapper connectivity.
+FPS005,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,515,Line Printer Daemon,Validate LPD print connectivity where required.
+FPS006,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,631,Internet Printing Protocol,Validate IPP print connectivity where required.
+FPS007,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,9100,RAW Printing,Validate RAW socket print connectivity where required.
+FPS008,fileprint.example.local,FILEPRINT01.fileprint.example.local,198.51.100.80,TCP,5985,WinRM HTTP,Validate WinRM HTTP administration for Windows file or print servers.

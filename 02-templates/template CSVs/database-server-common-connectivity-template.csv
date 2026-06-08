@@ -1,0 +1,9 @@
+TestId,TargetDomain,TargetServerName,TargetIpAddress,Protocol,Port,Service,Purpose
+DB001,database.example.local,DB01.database.example.local,198.51.100.100,ICMP,,ICMP,Validate basic reachability where allowed by policy.
+DB002,database.example.local,DB01.database.example.local,198.51.100.100,TCP,1433,SQL Server,Validate Microsoft SQL Server database connectivity.
+DB003,database.example.local,DB01.database.example.local,198.51.100.100,TCP,1521,Oracle Listener,Validate Oracle listener connectivity.
+DB004,database.example.local,DB01.database.example.local,198.51.100.100,TCP,3306,MySQL,Validate MySQL database connectivity.
+DB005,database.example.local,DB01.database.example.local,198.51.100.100,TCP,5432,PostgreSQL,Validate PostgreSQL database connectivity.
+DB006,database.example.local,DB01.database.example.local,198.51.100.100,TCP,6379,Redis,Validate Redis cache connectivity.
+DB007,database.example.local,DB01.database.example.local,198.51.100.100,TCP,9042,Cassandra,Validate Cassandra database connectivity.
+DB008,database.example.local,DB01.database.example.local,198.51.100.100,TCP,27017,MongoDB,Validate MongoDB database connectivity.
